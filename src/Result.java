@@ -42,7 +42,7 @@ public class Result {
     }
 
     public Student winner() {
-        double result = this.sortArray()[results.length - 1];
+        double result = this.sortArray()[0];
         int winner_index = 0;
         for (int i = 0; i < students.length; i++) {
             if (students[i].getResult() == result) {
@@ -52,15 +52,27 @@ public class Result {
         }
         return students[winner_index];
     }
-    public Student prize_winners() {
-        double result = this.sortArray()[results.length - 1];
-        int winner_index = 0;
-        for (int i = 0; i < students.length; i++) {
-            if (students[i].getResult() == result) {
-                winner_index = i;
-                break;
-            }
+    public Student[] prize_winners() {
+        double first_place = this.sortArray()[0];
+        double second_place = this.sortArray()[1];
+        double third_place = this.sortArray()[2];
+        Student[] prize_winners_students = new Student[3];
+        for (Student student : students) {
+            if (student.getResult() == first_place)
+                prize_winners_students[0] = student;
+            else if (student.getResult() == second_place)
+                prize_winners_students[1] = student;
+            else if (student.getResult() == third_place)
+                prize_winners_students[2] = student;
         }
-        return students[winner_index];
+        return prize_winners_students;
+    }
+    public double averageTime() {
+        double sum = 0;
+        for (double result : results) sum += result;
+        return sum / results.length;
+    }
+    public int numberOfParticipants() {
+        return results.length;
     }
 }
