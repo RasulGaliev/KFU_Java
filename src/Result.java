@@ -40,7 +40,6 @@ public class Result {
         }
         return array;
     }
-
     public Student winner() {
         double result = this.sortArray()[0];
         int winner_index = 0;
