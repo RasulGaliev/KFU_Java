@@ -1,4 +1,4 @@
-public class video_player extends player{
+public class VideoPlayer extends Player {
     private static int video_quality = 5;
     private static final int max_video_quality = 10;
     @Override

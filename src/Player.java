@@ -1,4 +1,4 @@
-public abstract class player implements technics {
+public abstract class Player implements Technics {
     protected int volume = 50;
     protected static final int max_volume = 100;
     protected static final int min_volume = 0;

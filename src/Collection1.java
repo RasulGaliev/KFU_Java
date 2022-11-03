@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Collection_1 {
+public class Collection1 {
     public static void main(String[] args) {
         task1();
         task2();
