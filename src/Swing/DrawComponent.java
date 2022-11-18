@@ -18,6 +18,14 @@ public class DrawComponent extends JComponent {
         g2.fill(rect1);
         g2.draw(rect1);
 
+        Rectangle2D  rect3 = new Rectangle2D.Double(190, 310, 120, 10);
+        g2.fill(rect3);
+        g2.draw(rect3);
+
+        Rectangle2D  rect4 = new Rectangle2D.Double(150, 320, 200, 10);
+        g2.fill(rect4);
+        g2.draw(rect4);
+
         Rectangle2D  rect2 = new Rectangle2D.Double(100, 100, 300, 200);
         g2.setPaint(new Color(224, 209, 209));
         g2.fill(rect2);
@@ -33,12 +41,10 @@ public class DrawComponent extends JComponent {
         g2.fill(ellipse1);
         g2.draw(ellipse1);
 
-        g2.setPaint(new Color(0,0,0));
         Ellipse2D ellipse2 = new Ellipse2D.Double(257, 180, 5, 5);
         g2.fill(ellipse2);
         g2.draw(ellipse2);
 
-        g2.setPaint(new Color(0,0,0));
         Ellipse2D ellipse3 = new Ellipse2D.Double(247.5, 190, 5, 5);
         g2.fill(ellipse3);
         g2.draw(ellipse3);
