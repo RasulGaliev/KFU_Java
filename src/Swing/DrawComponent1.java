@@ -2,11 +2,9 @@ package Swing;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.geom.Ellipse2D;
-import java.awt.geom.Line2D;
-import java.awt.geom.Rectangle2D;
+import java.awt.geom.*;
 
-public class DrawComponent extends JComponent {
+public class DrawComponent1 extends JComponent {
     public void paint(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
 

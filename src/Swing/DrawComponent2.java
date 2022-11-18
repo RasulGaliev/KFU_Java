@@ -3,7 +3,6 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
 
-
 public class DrawComponent2 extends JComponent {
     public void paint(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
@@ -77,7 +76,5 @@ public class DrawComponent2 extends JComponent {
         g2.fill(rect1);
 
         g2.setPaint(Color.BLACK);
-
     }
-
 }

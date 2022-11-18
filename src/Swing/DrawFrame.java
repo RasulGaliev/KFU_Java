@@ -3,13 +3,23 @@ package Swing;
 import javax.swing.*;
 
 public class DrawFrame extends JFrame {
-    public DrawFrame() {
+    public DrawFrame(int number) {
         setTitle("MyTitle");
         setSize(500, 500);
-        DrawComponent2 component = new DrawComponent2();
+        JComponent component = new DrawComponent1();
+        switch(number) {
+            case 1:
+                component = new DrawComponent1();
+                break;
+            case 2:
+                component = new DrawComponent2();
+                break;
+            default:
+                System.out.println("error");
+
+        }
         add(component);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setVisible(true);
     }
-
 }
