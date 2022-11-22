@@ -1,4 +1,4 @@
-package Swing;
+package swing;
 
 import java.util.Scanner;
 
