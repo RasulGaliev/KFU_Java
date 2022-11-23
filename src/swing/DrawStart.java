@@ -14,7 +14,6 @@ public class DrawStart {
             if (number == -1)
                 System.exit(0);
             DrawFrame frame = new DrawFrame(number);
-x
         }
 
     }
