@@ -4,8 +4,8 @@ import java.awt.*;
 import java.awt.geom.*;
 import javax.swing.*;
 
-public class DrawComponent2_2 extends JComponent {
-    public void paint(Graphics graphics) {
+public class DrawComponent2_2 extends JComponent  {
+    public void paint(Graphics graphics)   {
         Graphics2D graphics2D = (Graphics2D) graphics;
 
         Color initColor = graphics2D.getColor();
@@ -21,7 +21,14 @@ public class DrawComponent2_2 extends JComponent {
         //graphics2D.fill(ellipse);
         //graphics2D.draw(ellipse);
         graphics2D.setStroke(new BasicStroke(10f, BasicStroke.CAP_ROUND, BasicStroke.JOIN_MITER));
-        graphics2D.draw(new Arc2D.Double(ellipse.getX(), ellipse.getY(), 70, 70, -130, -90, Arc2D.OPEN));
+        graphics2D.draw(new Arc2D.Double(ellipse.getX() + 20, ellipse.getY() + 10, 70, 70, -135, -90, Arc2D.OPEN));
+
+        graphics2D.setPaint(new Color(190, 171, 171));
+        graphics2D.fillRect(100,100,300,20);
+        graphics2D.fillRect(100,100,20,200);
+        graphics2D.fillRect(100,280,300,20);
+        graphics2D.fillRect(380,100,20,200);
+        graphics2D.fillRect(245,100,10,200);
 
         graphics2D.setStroke(new BasicStroke(5f, BasicStroke.CAP_ROUND, BasicStroke.JOIN_MITER));
         graphics2D.setPaint(new Color(56, 131, 56));
@@ -64,6 +71,5 @@ public class DrawComponent2_2 extends JComponent {
         graphics2D.fill(rect1);
 
         graphics2D.setPaint(Color.BLACK);
-
     }
 }
