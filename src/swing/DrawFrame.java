@@ -11,7 +11,7 @@ public class DrawFrame extends JFrame {
                 component = new DrawComponent1();
                 break;
             case 2:
-                component = new DrawComponent2();
+                component = new DrawComponent1_2();
                 break;
             default:
                 System.out.println("error");

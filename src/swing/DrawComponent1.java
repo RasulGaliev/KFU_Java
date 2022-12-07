@@ -1,13 +1,10 @@
 package swing;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
-
 public class DrawComponent1 extends JComponent {
     public void paint(Graphics graphics) {
         Graphics2D graphics2D = (Graphics2D) graphics;
-
         graphics2D.setColor(new Color(255, 255, 255));
         graphics2D.fillRect(0, 0,getSize().width - 1,getSize().height - 1);
 
@@ -46,7 +43,6 @@ public class DrawComponent1 extends JComponent {
         Ellipse2D ellipse3 = new Ellipse2D.Double(247.5, 190, 5, 5);
         graphics2D.fill(ellipse3);
         graphics2D.draw(ellipse3);
-
         graphics2D.draw(new Line2D.Double(240, 205, 260, 205));
     }
 }
