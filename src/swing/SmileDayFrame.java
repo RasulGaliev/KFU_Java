@@ -1,17 +1,17 @@
 package swing;
 import javax.swing.*;
 
-public class DrawFrame extends JFrame {
-    public DrawFrame(int number) {
+public class SmileDayFrame extends JFrame {
+    public SmileDayFrame(int number) {
         setTitle("MyTitle");
         setSize(500, 500);
-        JComponent component = new DrawComponent1();
+        JComponent component = new Smile();
         switch(number) {
             case 1:
-                component = new DrawComponent1();
+                component = new Smile();
                 break;
             case 2:
-                component = new DrawComponent1_2();
+                component = new Day();
                 break;
             default:
                 System.out.println("error");

@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.geom.*;
 import javax.swing.*;
 
-public class DrawComponent2_2 extends JComponent  {
+public class Night extends JComponent  {
     public void paint(Graphics graphics)   {
         Graphics2D graphics2D = (Graphics2D) graphics;
 

@@ -1,9 +1,8 @@
 package swing;
 
-import javax.swing.*;
 import java.util.Scanner;
 
-public class DrawStart {
+public class SwingTask1 {
     public static void main(String[] args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
         int number;
@@ -13,8 +12,7 @@ public class DrawStart {
             number = scanner.nextInt();
             if (number == -1)
                 System.exit(0);
-            DrawFrame frame = new DrawFrame(number);
+            SmileDayFrame frame = new SmileDayFrame(number);
         }
-
     }
 }

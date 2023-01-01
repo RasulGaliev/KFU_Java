@@ -5,8 +5,8 @@ import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.io.*;
 
-public class DrawComponent1_2 extends JComponent {
-    String fileName = "/Users/Rasul/IdeaProjects/kfu/src/swing/nike.png";
+public class Nike extends JComponent {
+    String fileName = "/Users/galie/IdeaProjects/kfu/src/swing/nike.png";
     public void paint(Graphics graphics) {
         Graphics2D graphics2D = (Graphics2D) graphics;
 

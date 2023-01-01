@@ -2,7 +2,7 @@ package swing;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
-public class DrawComponent1 extends JComponent {
+public class Smile extends JComponent {
     public void paint(Graphics graphics) {
         Graphics2D graphics2D = (Graphics2D) graphics;
         graphics2D.setColor(new Color(255, 255, 255));

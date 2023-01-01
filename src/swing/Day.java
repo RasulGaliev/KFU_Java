@@ -1,9 +1,9 @@
-package Swing;
+package swing;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.geom.*;
 
-public class DrawComponent2 extends JComponent {
+public class Day extends JComponent {
     public void paint(Graphics g) {
         Graphics2D g2 = (Graphics2D) g;
 
