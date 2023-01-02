@@ -1,3 +1,5 @@
+package task1_2_3_4;
+
 import java.io.PrintStream;
 import java.util.Arrays;
 import java.util.Objects;

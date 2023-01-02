@@ -1,3 +1,5 @@
+package task1_2_3_4;
+
 public class InverseMatrixManager {
     public static void check(double[][] array) throws InverseMatrixMissing {
         boolean flag = true;

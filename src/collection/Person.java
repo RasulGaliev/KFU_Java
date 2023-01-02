@@ -1,3 +1,5 @@
+package collection;
+
 public class Person {
     private int id;
     private String surname;

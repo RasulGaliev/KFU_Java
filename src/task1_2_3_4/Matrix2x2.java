@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package task1_2_3_4;
 
 public class Matrix2x2 {
 
@@ -130,8 +130,8 @@ public class Matrix2x2 {
         return array;
     }
 
-    /* public Matrix2x2 equivalentDiagonal() {
-        Matrix2x2 array = new Matrix2x2();
+    /* public arrays.Matrix2x2 equivalentDiagonal() {
+        arrays.Matrix2x2 array = new arrays.Matrix2x2();
         double a =  this.matrix[0][0];
         double b =  this.matrix[0][1];
         double c =  this.matrix[1][0];

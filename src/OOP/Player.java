@@ -1,3 +1,5 @@
+package OOP;
+
 public abstract class Player implements Technics {
     protected int volume = 50;
     protected static final int max_volume = 100;

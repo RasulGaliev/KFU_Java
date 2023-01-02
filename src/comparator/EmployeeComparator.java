@@ -1,3 +1,7 @@
+package comparator;
+
+import comparator.Employee;
+
 import java.util.Comparator;
 
 public class EmployeeComparator implements Comparator<Employee> {

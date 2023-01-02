@@ -1,3 +1,5 @@
+package collection;
+
 public class PersonInformation {
     private String status = null;
     private String department;

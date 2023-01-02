@@ -1,3 +1,5 @@
+package marathon;
+
 import java.util.Arrays;
 
 public class Result {

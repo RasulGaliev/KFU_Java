@@ -1,3 +1,5 @@
+package task1_2_3_4;
+
 public class MyString {
     public static boolean myEquals(String str1, String str2) {
         boolean flag = str1.length() == str2.length();

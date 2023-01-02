@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package comparator;
+
 import java.util.Arrays;
 
 public class Employee implements Comparable<Employee>{

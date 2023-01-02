@@ -1,3 +1,5 @@
+package task1_2_3_4;
+
 public class DataTypes {
     public DataTypes() {
     }

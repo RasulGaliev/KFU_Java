@@ -1,3 +1,5 @@
+package collection;
+
 public class Pet {
     private String type;
     private int age;
